@@ -15,7 +15,7 @@ public class Jdbc
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://db.mis.kuas.edu.tw/s1103137222?user=s1103137222&password=haoyu");
+            conn = DriverManager.getConnection("jdbc:mysql://dbhost?user=USER&password=PW");
             aStatement = conn.createStatement();
         }
         catch(Exception exception) { }
@@ -27,7 +27,7 @@ public class Jdbc
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://db.mis.kuas.edu.tw/s1103137222?user=s1103137222&password=haoyu");
+            conn = DriverManager.getConnection("jdbc:mysql://dbhost?user=USER&password=PW");
             aStatement = conn.createStatement();
             aStatement.executeUpdate(sql);
             System.out.println("\u65B0\u589E\u6210\u529F");
