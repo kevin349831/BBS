@@ -1,4 +1,4 @@
 # BBS
 
-用JAVA撰寫BBS
+Write BBS with Java
 
